@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+.block{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+}
+
+.navbar {
+    list-style: none;
+}
+
+
+.navbar li {
+    display: inline-block;
+    margin: 0 7.7%;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    transition: 0.4s all linear;
+}
+
+.navbar .line {
+    height: 3px;
+    width: 0px;
+    background-color: tomato;
+    transition: 0.4s all linear;
+    border-radius: 5px;
+}
+
+.navbar li:hover .line {
+    width: 100%;
+    background-color: blue;
+    margin-left: 0;
+}
+
+.block2{
+    display: flex;
+}
+.firstBlock{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    
+}
+.firstBlock img{
+    margin-top: 30px;
+    width: 430px;
+    height: 300px;
+    border-radius: 5px;
+}

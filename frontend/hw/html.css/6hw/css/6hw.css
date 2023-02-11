@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 1 */
+.wow img{
+    width: 35%;
+    margin: 100px auto;
+    display: -webkit-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    border-radius: 30px;
+    margin-top: 600px;
+}
+/* 2 */
+.woow img{
+   border-radius: 30px;
+   width: 35%;
+   height: 200px;
+   justify-content: space-between;
+   align-self: center;
+   margin-left: 480px;
+   margin-top: -90px;
+}
+/* 3 */
+.wooow img{
+    width: 30%  ;
+    height: 350px;
+    border-radius: 30px;
+    margin-top: -600px;
+}
+.p1{
+    position: absolute;
+    width: 100%;
+    margin-left: 140px;
+    color: blue;
+    margin-top: 90px;
+}
+/* первая картинка */
+.h1{
+    position: absolute;
+    width: 100%;
+    margin-left: 185px;
+    margin-top: 110px;
+    color: blue;
+}
+/* вторая картинка */
+.p2{
+    position: absolute;
+    width: 100%;
+    margin-left: 675px;
+    color: red;
+    margin-top: -250px;
+}
+.h2{
+    position: absolute;
+    width: 100%;
+    margin-left: 720px;
+    color: red;
+    margin-top: -235px;      
+}
+/* третья картинка */
+.p3{
+    position: absolute;
+    width: 100%;
+    margin-left: 675px;
+    margin-top: -70px;
+    color: aqua;
+}
+.h3{
+    position: absolute;
+    width: 100%;
+    margin-left: 720px;
+    margin-top: -50px;
+    color: aqua;
+
+}
+

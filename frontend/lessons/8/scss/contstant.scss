@@ -1,0 +1,13 @@
+$dark: #252525;
+$white: #fff;
+
+
+@mixin flexbox($space, $size) {
+    display: flex;
+    justify-content: $space;
+    width: $size;
+}
+@mixin setHover($property, $value) {
+    transition: 0.3s all linear;
+
+}

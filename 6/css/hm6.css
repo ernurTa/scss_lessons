@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    transform-origin: center;
+}
+
+.block1{
+    float: left;
+    display: block;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 250px;
+
+}
+.block2{
+    float: left;
+    display: block;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.img1{
+  
+    box-shadow: #000 0px 0px 15px 1px;
+    transform-origin: center;
+    transition: 1s;
+}
+.img2{
+    width: 350px;
+    height: 158px;
+    padding-bottom: 10px;
+    border-radius: 25px;
+    box-shadow: #000 0px 0px 15px 1px;
+    transform-origin: center;
+    transition: 1s;
+    position: relative;
+}
+.img3{
+    width: 350px;
+    height: 158px;
+    padding-top: 10px;
+    border-radius: 25px;
+    box-shadow: #000 0px 0px 15px 1px;
+    transform-origin: center;
+    transition: 1s;
+    position: relative;
+}
+.p1{
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    left: 360px;
+    color: aqua;
+}
+.h3-1{
+    position: absolute;
+    width: 100%;
+    top: 440px;
+    left: 400px;
+    color: aqua;
+}
+.p2{
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 760px;
+    color: aqua;
+}
+.h3-2{
+    position: absolute;
+    width: 100%;
+    top: 270px;
+    left: 800px;
+    color: aqua;
+}
+.p3{
+    position: absolute;
+    width: 100%;
+    top: 420px;
+    left: 760px;
+    color: aqua;
+}
+.h3-3{
+    position: absolute;
+    width: 100%;
+    top: 440px;
+    left: 800px;
+    color: aqua;
+}
+.img1:hover{
+    overflow: hidden;
+}
+    
+.img2:hover{
+    overflow: hidden;
+}
+        
+.img3:hover{
+    overflow: hidden;
+}
+    

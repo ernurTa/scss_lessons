@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+.block .cell{
+    margin-left: 50px;
+    margin: 50px  auto;
+    width: 10%;
+    height: 25px; 
+}

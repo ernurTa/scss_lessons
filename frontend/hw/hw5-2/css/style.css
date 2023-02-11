@@ -1,0 +1,132 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.block{
+    background-color: blue;
+    height: 50px;
+}
+
+
+h1{
+    color: #fff;
+    padding: 10px 10px;
+    margin-left: 20px;
+}
+.wow{
+    display: flex;
+    justify-content: end;
+}
+.wow p{
+    margin: 10px;
+    margin-right: 70px;
+    color: white;
+    margin-top: -30px; 
+}
+img{
+    width: 300px;
+    height: 200px;
+    transition: 0.3s all linear;
+}
+.blockC{
+    margin: 100px auto;
+    margin-left: 250px;
+}
+
+
+.p p{
+    width: 50px;
+    height: 75px;
+    text-align: center;
+}
+
+.p{
+    border-radius: 20px;
+    border: red solid;
+    width: 20%;
+    height: 70%;
+    margin: 40%;
+    margin-top: 90px;
+}
+.blockC  img:hover{
+   transform: translate(-30px, -30px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

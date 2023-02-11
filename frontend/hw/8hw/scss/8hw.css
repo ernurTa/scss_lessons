@@ -1,0 +1,12 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.div{
+    background-color: blueviolet;
+}
+.h1{
+    text-align: center;
+    margin-top: 20px;
+}

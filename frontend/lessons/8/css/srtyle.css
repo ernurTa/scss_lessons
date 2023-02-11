@@ -1,0 +1,86 @@
+.cards {
+  background-color: #fff;
+}
+.cards .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+}
+.cards .container .col {
+  width: 30%;
+  background-color: #252525;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.cards .container .col h2 {
+  color: #fff;
+}
+.cards .container .col p {
+  font-size: 17px;
+  margin: 20px 0;
+  color: #fff;
+}
+.cards .container .col a {
+  color: #fff;
+  background-color: tomato;
+  font-size: 19px;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s all linear;
+}
+
+header {
+  background-color: #252525;
+  padding: 25px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 87%;
+  margin: 0 auto;
+  align-items: center;
+}
+.nav_logo {
+  color: #fff;
+  font-size: 30px;
+}
+.nav_navbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  width: 60%;
+}
+.nav_navbar a {
+  color: #fff;
+  transition: 0.3s all linear;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=srtyle.css.map */

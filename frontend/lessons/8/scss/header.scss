@@ -1,0 +1,28 @@
+header{
+    background-color: $dark;
+    padding: 25px 0
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: 0 auto;
+    align-items: center;
+
+&_logo{
+    color: $white;
+    font-size: 30px;
+}
+&_navbar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    width: 60%;
+
+a{
+    color: $white;
+      @include setHover(center, tomato)
+    }
+  }
+}

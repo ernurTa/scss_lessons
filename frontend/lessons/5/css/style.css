@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section:first-child{
+    margin-top: 200px
+}
+
+.wrapper{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/пауэр.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.child{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/макима.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: 100px auto;
+}
+
+.container .col{
+    width: 30%;
+    height: 200px;
+}
+
+.col img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+}
+.col:first-child img{
+    object-fit: cover;
+    object-fit: center;
+}
+
+.col:nth-last-child(2) img{
+    object-fit: contain;
+}
+
+.col:last-child img{
+    object-fit: fill;
+}
+    
+    
+ 
